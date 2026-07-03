@@ -6,14 +6,10 @@
   <title>Nobukhosi Sibanda &mdash; Quantitative Analyst &amp; Data Scientist</title>
   <meta name="description" content="Portfolio of Nobukhosi Sibanda — Quantitative Analyst student with a Data Science Master's degree and Finance background." />
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
-
-  <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
@@ -29,6 +25,7 @@
         <li><a href="#home"         class="nav-link">Home</a></li>
         <li><a href="#about"        class="nav-link">About</a></li>
         <li><a href="#projects"     class="nav-link">Projects</a></li>
+        <li><a href="#courses"      class="nav-link">Courses</a></li>
         <li><a href="#certificates" class="nav-link">Certificates</a></li>
         <li><a href="#contact"      class="nav-link">Contact</a></li>
         <li>
@@ -43,7 +40,7 @@
   <!-- ═══════════════════════════ HERO / HOME ══════════════════════════ -->
   <section id="home" class="hero">
 
-    <!-- Left split — Data Science -->
+    <!-- Left split — Data Scientist -->
     <div class="hero-split hero-ds" id="splitDS">
       <div class="split-bg">
         <canvas id="canvasDS"></canvas>
@@ -94,7 +91,6 @@
       <div class="split-label">QUANTITATIVE ANALYSIS</div>
     </div>
 
-    <!-- Scroll cue -->
     <div class="scroll-cue">
       <span>Scroll</span>
       <div class="scroll-line"></div>
@@ -111,7 +107,6 @@
       </div>
 
       <div class="about-grid">
-        <!-- Photo card -->
         <div class="about-photo-col reveal">
           <div class="photo-card">
             <div class="photo-placeholder">
@@ -128,7 +123,6 @@
           </div>
         </div>
 
-        <!-- Bio -->
         <div class="about-bio-col reveal">
           <p class="bio-text">
             I'm <strong>Nobukhosi Sibanda</strong>, a Quantitative Analyst student with a strong
@@ -150,7 +144,6 @@
             in credit card transactions.
           </p>
 
-          <!-- Education timeline -->
           <div class="edu-timeline">
             <div class="edu-item reveal">
               <div class="edu-icon qa"><i class="fas fa-chart-line"></i></div>
@@ -179,7 +172,6 @@
           </div>
         </div>
 
-        <!-- Skills -->
         <div class="about-skills-col reveal">
           <h3 class="skills-title">Technical Skills</h3>
           <div class="skills-grid">
@@ -197,7 +189,7 @@
               </div>
             </div>
             <div class="skill-group">
-              <h4><i class="fas fa-chart-bar"></i> Data & Viz</h4>
+              <h4><i class="fas fa-chart-bar"></i> Data &amp; Viz</h4>
               <div class="skill-pills">
                 <span>Pandas</span><span>NumPy</span><span>Plotly</span>
                 <span>Matplotlib</span><span>Seaborn</span>
@@ -237,7 +229,6 @@
         </p>
       </div>
 
-      <!-- Tab switcher -->
       <div class="proj-tabs reveal">
         <button class="proj-tab active" data-tab="all">All</button>
         <button class="proj-tab" data-tab="ds">
@@ -248,11 +239,9 @@
         </button>
       </div>
 
-      <!-- Project cards grid -->
       <div class="proj-grid" id="projGrid">
 
-        <!-- ── DATA SCIENCE PROJECTS ── -->
-
+        <!-- ── DATA SCIENCE ── -->
         <article class="proj-card reveal" data-cat="ds">
           <div class="proj-card-top ds">
             <i class="fas fa-virus proj-icon"></i>
@@ -260,10 +249,8 @@
           </div>
           <div class="proj-card-body">
             <h3>COVID-19 Global Tracking Dashboard</h3>
-            <p>Comprehensive pandemic dashboard covering global trends, country comparisons, vaccination progress, hospitalisation, and socioeconomic correlates. Built with Python, Matplotlib, and Plotly.</p>
-            <div class="proj-tags">
-              <span>Plotly</span><span>Pandas</span><span>Matplotlib</span><span>Python</span>
-            </div>
+            <p>Comprehensive pandemic dashboard covering global trends, country comparisons, vaccination progress, hospitalisation, and socioeconomic correlates.</p>
+            <div class="proj-tags"><span>Plotly</span><span>Pandas</span><span>Matplotlib</span><span>Python</span></div>
           </div>
           <div class="proj-card-footer">
             <a href="https://github.com/Nobby-sibanda/D-COVID19-Tracking-Dashboard" target="_blank" class="proj-link">
@@ -279,10 +266,8 @@
           </div>
           <div class="proj-card-body">
             <h3>Store Sales Forecasting &mdash; Time Series</h3>
-            <p>End-to-end store sales forecasting using time series analysis: EDA, decomposition, seasonal adjustment, and ML models including SARIMA and gradient boosting.</p>
-            <div class="proj-tags">
-              <span>SARIMA</span><span>XGBoost</span><span>Time Series</span><span>Pandas</span>
-            </div>
+            <p>End-to-end store sales forecasting using time series analysis: EDA, decomposition, seasonal adjustment, SARIMA and gradient boosting.</p>
+            <div class="proj-tags"><span>SARIMA</span><span>XGBoost</span><span>Time Series</span><span>Pandas</span></div>
           </div>
           <div class="proj-card-footer">
             <a href="https://github.com/Nobby-sibanda/C-Store-Sales-Forecasting-Time-Series" target="_blank" class="proj-link">
@@ -298,10 +283,8 @@
           </div>
           <div class="proj-card-body">
             <h3>Credit Card Fraud Detection</h3>
-            <p>Anomaly-based and supervised fraud detection pipeline on credit card transaction data. Tackles extreme class imbalance with SMOTE and ensemble methods.</p>
-            <div class="proj-tags">
-              <span>Scikit-learn</span><span>SMOTE</span><span>Random Forest</span><span>Anomaly Detection</span>
-            </div>
+            <p>Anomaly-based and supervised fraud detection pipeline. Tackles extreme class imbalance with SMOTE and ensemble methods.</p>
+            <div class="proj-tags"><span>Scikit-learn</span><span>SMOTE</span><span>Random Forest</span><span>Anomaly Detection</span></div>
           </div>
           <div class="proj-card-footer">
             <a href="https://github.com/Nobby-sibanda/Fraud_Detection-Credit--C" target="_blank" class="proj-link">
@@ -317,10 +300,8 @@
           </div>
           <div class="proj-card-body">
             <h3>Anomaly Detection &mdash; GMM vs Isolation Forest</h3>
-            <p>Comparative study of Gaussian Mixture Model and Isolation Forest for unsupervised anomaly detection, benchmarked across synthetic and real-world datasets.</p>
-            <div class="proj-tags">
-              <span>GMM</span><span>Isolation Forest</span><span>Unsupervised ML</span><span>Python</span>
-            </div>
+            <p>Comparative study of Gaussian Mixture Model and Isolation Forest for unsupervised anomaly detection across synthetic and real-world datasets.</p>
+            <div class="proj-tags"><span>GMM</span><span>Isolation Forest</span><span>Unsupervised ML</span><span>Python</span></div>
           </div>
           <div class="proj-card-footer">
             <a href="https://github.com/Nobby-sibanda/Anomaly_detection.-" target="_blank" class="proj-link">
@@ -336,10 +317,8 @@
           </div>
           <div class="proj-card-body">
             <h3>Vehicle Detection &amp; Counting</h3>
-            <p>Computer vision pipeline for real-time vehicle detection and counting using deep learning object detection models (YOLO-based) on traffic video feeds.</p>
-            <div class="proj-tags">
-              <span>YOLO</span><span>OpenCV</span><span>Deep Learning</span><span>Python</span>
-            </div>
+            <p>Computer vision pipeline for real-time vehicle detection and counting using YOLO-based deep learning on traffic video feeds.</p>
+            <div class="proj-tags"><span>YOLO</span><span>OpenCV</span><span>Deep Learning</span><span>Python</span></div>
           </div>
           <div class="proj-card-footer">
             <a href="https://github.com/Nobby-sibanda/Detecting_and_counting_vehicles" target="_blank" class="proj-link">
@@ -355,10 +334,8 @@
           </div>
           <div class="proj-card-body">
             <h3>Udemy Course Recommendation System</h3>
-            <p>Content-based and collaborative filtering recommendation engine for online courses. Uses NLP embeddings and user-interaction matrix factorisation.</p>
-            <div class="proj-tags">
-              <span>NLP</span><span>Collaborative Filtering</span><span>Scikit-learn</span><span>Python</span>
-            </div>
+            <p>Content-based and collaborative filtering recommendation engine using NLP embeddings and user-interaction matrix factorisation.</p>
+            <div class="proj-tags"><span>NLP</span><span>Collaborative Filtering</span><span>Scikit-learn</span><span>Python</span></div>
           </div>
           <div class="proj-card-footer">
             <a href="https://github.com/Nobby-sibanda/Udemy-Course_recommendation_system" target="_blank" class="proj-link">
@@ -374,10 +351,8 @@
           </div>
           <div class="proj-card-body">
             <h3>Bird Species Classification</h3>
-            <p>Multi-class image classification of bird species using convolutional neural networks with transfer learning on a large annotated dataset.</p>
-            <div class="proj-tags">
-              <span>CNN</span><span>Transfer Learning</span><span>PyTorch</span><span>Computer Vision</span>
-            </div>
+            <p>Multi-class image classification using CNNs with transfer learning on a large annotated bird species dataset.</p>
+            <div class="proj-tags"><span>CNN</span><span>Transfer Learning</span><span>PyTorch</span><span>Computer Vision</span></div>
           </div>
           <div class="proj-card-footer">
             <a href="https://github.com/Nobby-sibanda/bird_species" target="_blank" class="proj-link">
@@ -393,10 +368,8 @@
           </div>
           <div class="proj-card-body">
             <h3>WhatsApp Chat Analyser</h3>
-            <p>NLP-powered analysis of WhatsApp conversation exports: sentiment trends, activity heatmaps, most-used words, emoji frequency, and message-volume patterns.</p>
-            <div class="proj-tags">
-              <span>NLP</span><span>NLTK</span><span>Plotly</span><span>Text Mining</span>
-            </div>
+            <p>NLP-powered analysis of WhatsApp exports: sentiment trends, activity heatmaps, emoji frequency, and message-volume patterns.</p>
+            <div class="proj-tags"><span>NLP</span><span>NLTK</span><span>Plotly</span><span>Text Mining</span></div>
           </div>
           <div class="proj-card-footer">
             <a href="https://github.com/Nobby-sibanda/whatsapp_text_analyzer" target="_blank" class="proj-link">
@@ -405,8 +378,24 @@
           </div>
         </article>
 
-        <!-- ── QUANTITATIVE ANALYSIS PROJECTS ── -->
+        <article class="proj-card reveal" data-cat="ds">
+          <div class="proj-card-top ds">
+            <i class="fas fa-shield-alt proj-icon"></i>
+            <span class="proj-badge ds">Data Science</span>
+          </div>
+          <div class="proj-card-body">
+            <h3>Insurance Charges Pricing Models</h3>
+            <p>Regression and tree-based models for health insurance charge prediction with feature engineering and SHAP interpretability.</p>
+            <div class="proj-tags"><span>Regression</span><span>SHAP</span><span>Scikit-learn</span><span>Actuarial</span></div>
+          </div>
+          <div class="proj-card-footer">
+            <a href="https://github.com/Nobby-sibanda/B-Insurance_Charges-Pricing-models" target="_blank" class="proj-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </article>
 
+        <!-- ── QUANTITATIVE ANALYSIS ── -->
         <article class="proj-card reveal" data-cat="qa">
           <div class="proj-card-top qa">
             <i class="fas fa-atom proj-icon"></i>
@@ -414,10 +403,8 @@
           </div>
           <div class="proj-card-body">
             <h3>Eigenportfolio Construction via RMT</h3>
-            <p>Applies Random Matrix Theory to clean correlation matrices of equity returns, then constructs eigenportfolios that isolate systematic and idiosyncratic risk factors.</p>
-            <div class="proj-tags">
-              <span>RMT</span><span>PCA</span><span>Portfolio Theory</span><span>NumPy</span>
-            </div>
+            <p>Applies Random Matrix Theory to clean correlation matrices of equity returns, constructing eigenportfolios that isolate systematic and idiosyncratic risk factors.</p>
+            <div class="proj-tags"><span>RMT</span><span>PCA</span><span>Portfolio Theory</span><span>NumPy</span></div>
           </div>
           <div class="proj-card-footer">
             <a href="https://github.com/Nobby-sibanda/Eigenportfolio_RMT" target="_blank" class="proj-link">
@@ -433,10 +420,8 @@
           </div>
           <div class="proj-card-body">
             <h3>Factor Exposure Decomposition</h3>
-            <p>Decomposes portfolio returns into systematic factor exposures (market, size, value, momentum) and alpha, quantifying how much risk each factor contributes.</p>
-            <div class="proj-tags">
-              <span>Factor Models</span><span>Regression</span><span>Risk Attribution</span><span>Python</span>
-            </div>
+            <p>Decomposes portfolio returns into systematic factor exposures (market, size, value, momentum) and alpha.</p>
+            <div class="proj-tags"><span>Factor Models</span><span>Regression</span><span>Risk Attribution</span><span>Python</span></div>
           </div>
           <div class="proj-card-footer">
             <a href="https://github.com/Nobby-sibanda/Factor_exposure_decomposition" target="_blank" class="proj-link">
@@ -452,10 +437,8 @@
           </div>
           <div class="proj-card-body">
             <h3>Monte Carlo Simulation</h3>
-            <p>Monte Carlo framework for option pricing (European &amp; Asian), VaR estimation, and portfolio simulation under correlated GBM processes with variance-reduction techniques.</p>
-            <div class="proj-tags">
-              <span>Monte Carlo</span><span>Options Pricing</span><span>VaR</span><span>NumPy</span>
-            </div>
+            <p>Monte Carlo framework for option pricing (European &amp; Asian), VaR estimation, and portfolio simulation under correlated GBM with variance-reduction.</p>
+            <div class="proj-tags"><span>Monte Carlo</span><span>Options Pricing</span><span>VaR</span><span>NumPy</span></div>
           </div>
           <div class="proj-card-footer">
             <a href="https://github.com/Nobby-sibanda/Monte_Carlo_simulation" target="_blank" class="proj-link">
@@ -471,10 +454,8 @@
           </div>
           <div class="proj-card-body">
             <h3>News Sentiment Trading System</h3>
-            <p>End-to-end pipeline that scrapes financial news, computes sentiment scores with transformer-based NLP, and generates long/short equity signals with backtesting.</p>
-            <div class="proj-tags">
-              <span>NLP</span><span>Transformers</span><span>Backtesting</span><span>Alpha Research</span>
-            </div>
+            <p>Scrapes financial news, computes transformer-based sentiment scores, and generates long/short equity signals with backtesting.</p>
+            <div class="proj-tags"><span>NLP</span><span>Transformers</span><span>Backtesting</span><span>Alpha Research</span></div>
           </div>
           <div class="proj-card-footer">
             <a href="https://github.com/Nobby-sibanda/News_Sentiment_trading--system" target="_blank" class="proj-link">
@@ -490,10 +471,8 @@
           </div>
           <div class="proj-card-body">
             <h3>Stock Price Regime Detector</h3>
-            <p>Hidden Markov Model and change-point detection to identify bull, bear, and sideways market regimes in equity price series, with regime-conditional strategy allocation.</p>
-            <div class="proj-tags">
-              <span>HMM</span><span>Regime Detection</span><span>Change-Point</span><span>Python</span>
-            </div>
+            <p>Hidden Markov Model and change-point detection to identify bull, bear, and sideways regimes with regime-conditional strategy allocation.</p>
+            <div class="proj-tags"><span>HMM</span><span>Regime Detection</span><span>Change-Point</span><span>Python</span></div>
           </div>
           <div class="proj-card-footer">
             <a href="https://github.com/Nobby-sibanda/Stock__Price_Regime_Detector" target="_blank" class="proj-link">
@@ -509,10 +488,8 @@
           </div>
           <div class="proj-card-body">
             <h3>Volatility-Scaled MA Crossover</h3>
-            <p>Moving-average crossover strategy with dynamic position sizing scaled by realised volatility. Backtested across multiple equity and FX instruments with transaction cost analysis.</p>
-            <div class="proj-tags">
-              <span>Algo Trading</span><span>Volatility Scaling</span><span>Backtesting</span><span>Python</span>
-            </div>
+            <p>Moving-average crossover strategy with dynamic position sizing scaled by realised volatility, backtested across equity and FX instruments.</p>
+            <div class="proj-tags"><span>Algo Trading</span><span>Volatility Scaling</span><span>Backtesting</span><span>Python</span></div>
           </div>
           <div class="proj-card-footer">
             <a href="https://github.com/Nobby-sibanda/Volatility-Scaled-Moving-Average-Crossover" target="_blank" class="proj-link">
@@ -528,10 +505,8 @@
           </div>
           <div class="proj-card-body">
             <h3>Volatility-Scaled Momentum Rule</h3>
-            <p>Time-series momentum strategy where signal strength is inversely scaled by recent volatility, implemented with walk-forward optimisation and performance attribution.</p>
-            <div class="proj-tags">
-              <span>Momentum</span><span>Volatility Scaling</span><span>Walk-Forward</span><span>Python</span>
-            </div>
+            <p>Time-series momentum strategy inversely scaled by recent volatility, implemented with walk-forward optimisation and performance attribution.</p>
+            <div class="proj-tags"><span>Momentum</span><span>Volatility Scaling</span><span>Walk-Forward</span><span>Python</span></div>
           </div>
           <div class="proj-card-footer">
             <a href="https://github.com/Nobby-sibanda/Volatility_Scaled_Basic_Momentum-rule" target="_blank" class="proj-link">
@@ -547,32 +522,11 @@
           </div>
           <div class="proj-card-body">
             <h3>Goldman Sachs Quant Research Notes</h3>
-            <p>Curated collection of Goldman Sachs Quantitative Strategies Research Notes from the 1990s — foundational reading in statistical arbitrage, factor modelling, and quant portfolio construction.</p>
-            <div class="proj-tags">
-              <span>Research</span><span>Stat Arb</span><span>Factor Models</span><span>Literature</span>
-            </div>
+            <p>Curated collection of Goldman Sachs Quantitative Strategies Research Notes — foundational reading in stat arb, factor modelling, and quant portfolio construction.</p>
+            <div class="proj-tags"><span>Research</span><span>Stat Arb</span><span>Factor Models</span><span>Literature</span></div>
           </div>
           <div class="proj-card-footer">
             <a href="https://github.com/Nobby-sibanda/gs-quantitative-strategies-research-notes" target="_blank" class="proj-link">
-              <i class="fab fa-github"></i> GitHub
-            </a>
-          </div>
-        </article>
-
-        <article class="proj-card reveal" data-cat="ds">
-          <div class="proj-card-top ds">
-            <i class="fas fa-shield-alt proj-icon"></i>
-            <span class="proj-badge ds">Data Science</span>
-          </div>
-          <div class="proj-card-body">
-            <h3>Insurance Charges Pricing Models</h3>
-            <p>Regression and tree-based models for health insurance charge prediction. Includes feature engineering, interaction effects, and model interpretability via SHAP values.</p>
-            <div class="proj-tags">
-              <span>Regression</span><span>SHAP</span><span>Scikit-learn</span><span>Actuarial</span>
-            </div>
-          </div>
-          <div class="proj-card-footer">
-            <a href="https://github.com/Nobby-sibanda/B-Insurance_Charges-Pricing-models" target="_blank" class="proj-link">
               <i class="fab fa-github"></i> GitHub
             </a>
           </div>
@@ -589,13 +543,13 @@
     </div>
   </section>
 
-  <!-- ═══════════════════════════ CERTIFICATES ══════════════════════════ -->
-  <section id="certificates" class="section certs-section">
+  <!-- ═══════════════════════════ COURSES ══════════════════════════════ -->
+  <section id="courses" class="section courses-section">
     <div class="container">
 
       <div class="section-header reveal">
         <span class="section-label">Learning</span>
-        <h2 class="section-title">Courses &amp; Certificates</h2>
+        <h2 class="section-title">Courses &amp; Training</h2>
         <p class="section-desc">Continuous learning across quantitative finance, machine learning, and data engineering.</p>
       </div>
 
@@ -642,7 +596,7 @@
         </div>
 
         <div class="cert-card reveal">
-          <div class="cert-icon"><i class="fas fa-random"></i></div>
+          <div class="cert-icon qa-icon"><i class="fas fa-random"></i></div>
           <div class="cert-body">
             <span class="cert-tag qa-tag">Quant Finance</span>
             <h3>Stochastic Calculus &amp; Financial Derivatives</h3>
@@ -663,11 +617,144 @@
 
       </div>
 
-      <p class="certs-note reveal">
-        <i class="fas fa-info-circle"></i>
-        Certificates available on request or via my
-        <a href="https://www.linkedin.com/in/nobukhosi-sibanda" target="_blank">LinkedIn profile</a>.
-      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ CERTIFICATES (actual docs) ════════════ -->
+  <section id="certificates" class="section certificates-section">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-label">Credentials</span>
+        <h2 class="section-title">Completed Certificates</h2>
+        <p class="section-desc">Click any certificate title to view the full document.</p>
+      </div>
+
+      <div class="doc-certs-grid">
+
+        <div class="doc-cert-card reveal">
+          <div class="doc-cert-header">
+            <div class="doc-cert-icon pdf-icon"><i class="fas fa-file-pdf"></i></div>
+            <div class="doc-cert-meta">
+              <span class="cert-tag qa-tag">Finance &amp; Banking</span>
+              <h3>JPMorgan Chase Job Simulation</h3>
+            </div>
+          </div>
+          <div class="doc-cert-trigger" onclick="toggleCert(this)">
+            <span><i class="fas fa-eye"></i>&nbsp; View Certificate</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="doc-cert-preview">
+            <a class="cert-open-link" href="Completed%20Certificates/Nobukhosi%20Sibanda%20(Chase).pdf" target="_blank">
+              <i class="fas fa-external-link-alt"></i> Open full
+            </a>
+            <iframe src="Completed%20Certificates/Nobukhosi%20Sibanda%20(Chase).pdf" height="460" loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <div class="doc-cert-card reveal">
+          <div class="doc-cert-header">
+            <div class="doc-cert-icon pdf-icon"><i class="fas fa-file-pdf"></i></div>
+            <div class="doc-cert-meta">
+              <span class="cert-tag ds-tag">Data Analytics</span>
+              <h3>Deloitte Data Analytics Job Simulation</h3>
+            </div>
+          </div>
+          <div class="doc-cert-trigger" onclick="toggleCert(this)">
+            <span><i class="fas fa-eye"></i>&nbsp; View Certificate</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="doc-cert-preview">
+            <a class="cert-open-link" href="Completed%20Certificates/Nobukhosi%20Sibanda%20(Forage%20-%20Delloite).pdf" target="_blank">
+              <i class="fas fa-external-link-alt"></i> Open full
+            </a>
+            <iframe src="Completed%20Certificates/Nobukhosi%20Sibanda%20(Forage%20-%20Delloite).pdf" height="460" loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <div class="doc-cert-card reveal">
+          <div class="doc-cert-header">
+            <div class="doc-cert-icon pdf-icon"><i class="fas fa-file-pdf"></i></div>
+            <div class="doc-cert-meta">
+              <span class="cert-tag ds-tag">Strategy &amp; Analytics</span>
+              <h3>BCG Strategy &amp; Analytics Job Simulation</h3>
+            </div>
+          </div>
+          <div class="doc-cert-trigger" onclick="toggleCert(this)">
+            <span><i class="fas fa-eye"></i>&nbsp; View Certificate</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="doc-cert-preview">
+            <a class="cert-open-link" href="Completed%20Certificates/Nobukhosi%20Sibanda%20(Forage-BCG).pdf" target="_blank">
+              <i class="fas fa-external-link-alt"></i> Open full
+            </a>
+            <iframe src="Completed%20Certificates/Nobukhosi%20Sibanda%20(Forage-BCG).pdf" height="460" loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <div class="doc-cert-card reveal">
+          <div class="doc-cert-header">
+            <div class="doc-cert-icon pdf-icon"><i class="fas fa-file-pdf"></i></div>
+            <div class="doc-cert-meta">
+              <span class="cert-tag ds-tag">Data Science</span>
+              <h3>Commonwealth Bank Data Science Simulation</h3>
+            </div>
+          </div>
+          <div class="doc-cert-trigger" onclick="toggleCert(this)">
+            <span><i class="fas fa-eye"></i>&nbsp; View Certificate</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="doc-cert-preview">
+            <a class="cert-open-link" href="Completed%20Certificates/Nobukhosi%20Sibanda%20(Forage-Common%20Wealth).pdf" target="_blank">
+              <i class="fas fa-external-link-alt"></i> Open full
+            </a>
+            <iframe src="Completed%20Certificates/Nobukhosi%20Sibanda%20(Forage-Common%20Wealth).pdf" height="460" loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <div class="doc-cert-card reveal">
+          <div class="doc-cert-header">
+            <div class="doc-cert-icon img-icon"><i class="fas fa-certificate"></i></div>
+            <div class="doc-cert-meta">
+              <span class="cert-tag ds-tag">Data Science</span>
+              <h3>ALX Data Science Professional Certificate</h3>
+            </div>
+          </div>
+          <div class="doc-cert-trigger" onclick="toggleCert(this)">
+            <span><i class="fas fa-eye"></i>&nbsp; View Certificate</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="doc-cert-preview">
+            <a class="cert-open-link" href="Completed%20Certificates/Nobukhosi%20Sibanda%20ALX%20DS%20Certificate.png" target="_blank">
+              <i class="fas fa-external-link-alt"></i> Open full
+            </a>
+            <img src="Completed%20Certificates/Nobukhosi%20Sibanda%20ALX%20DS%20Certificate.png"
+                 alt="ALX Data Science Certificate" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="doc-cert-card reveal">
+          <div class="doc-cert-header">
+            <div class="doc-cert-icon img-icon"><i class="fas fa-robot"></i></div>
+            <div class="doc-cert-meta">
+              <span class="cert-tag ds-tag">Artificial Intelligence</span>
+              <h3>AI in the Workplace Certificate</h3>
+            </div>
+          </div>
+          <div class="doc-cert-trigger" onclick="toggleCert(this)">
+            <span><i class="fas fa-eye"></i>&nbsp; View Certificate</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="doc-cert-preview">
+            <a class="cert-open-link" href="Completed%20Certificates/ai-in-the-workplace.png" target="_blank">
+              <i class="fas fa-external-link-alt"></i> Open full
+            </a>
+            <img src="Completed%20Certificates/ai-in-the-workplace.png"
+                 alt="AI in the Workplace Certificate" loading="lazy" />
+          </div>
+        </div>
+
+      </div><!-- /doc-certs-grid -->
 
     </div>
   </section>
@@ -683,35 +770,24 @@
       </div>
 
       <div class="contact-grid">
-        <!-- Links -->
         <div class="contact-links reveal">
           <a href="https://www.linkedin.com/in/nobukhosi-sibanda" target="_blank" class="contact-card linkedin">
             <i class="fab fa-linkedin"></i>
-            <div>
-              <strong>LinkedIn</strong>
-              <span>Connect professionally</span>
-            </div>
+            <div><strong>LinkedIn</strong><span>Connect professionally</span></div>
             <i class="fas fa-arrow-right contact-arrow"></i>
           </a>
           <a href="https://github.com/Nobby-sibanda" target="_blank" class="contact-card github">
             <i class="fab fa-github"></i>
-            <div>
-              <strong>GitHub</strong>
-              <span>Explore all projects</span>
-            </div>
+            <div><strong>GitHub</strong><span>Explore all projects</span></div>
             <i class="fas fa-arrow-right contact-arrow"></i>
           </a>
           <a href="mailto:nobbyspearl@gmail.com" class="contact-card email">
             <i class="fas fa-envelope"></i>
-            <div>
-              <strong>Email</strong>
-              <span>nobbyspearl@gmail.com</span>
-            </div>
+            <div><strong>Email</strong><span>nobbyspearl@gmail.com</span></div>
             <i class="fas fa-arrow-right contact-arrow"></i>
           </a>
         </div>
 
-        <!-- Message form -->
         <form class="contact-form reveal" id="contactForm">
           <div class="form-row">
             <div class="form-group">
@@ -755,7 +831,6 @@
     </div>
   </footer>
 
-  <!-- Back to top -->
   <button class="back-to-top" id="backToTop" aria-label="Back to top">
     <i class="fas fa-arrow-up"></i>
   </button>
